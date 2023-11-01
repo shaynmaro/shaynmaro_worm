@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    border-radius: 40px;
+}
+:root{
+    background-color: black;
+}
+
+img, picture, svg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+body{
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.wrapper1{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.wrapper2{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+
+.p-20{
+    padding: 20px;
+}
+
+.selfimg{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+}
+
+.nametag{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+}
+
+.container1{
+    height: 100%;
+    width: 60%;
+    background-color: purple;
+}
+
+.container2
+{
+    height: 100%;
+    width: 40%;
+    background-color: aqua;
+    overflow: hidden;
+    margin: auto 0;
+}
+
+.slider {
+    display: flex;
+    transition: 1s;
+    height: 100%;
+    width: 100%;
+}
+.slider > img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.container3{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+}
+
+.container4{
+    width: 50%;
+    height: 100%;
+    background-color: pink;
+}
+
+.bottempart{
+    width: 100%;
+    height: 180px;
+    background-color: indigo;
+    gap:  5px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.icons a{
+    width: 100px;
+    height: 100px;
+    text-align: end;
+    color: #000000;
+}
